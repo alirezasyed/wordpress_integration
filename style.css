@@ -1,0 +1,324 @@
+/*
+
+Theme Name: Gratia
+Theme URI:
+Version: 1.0
+Author: Emma Léger
+Author URI:
+Description: wordpress integration theme
+
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  display: flex;
+}
+
+.navbar{
+  background-color: #141B2A;
+  padding: 3vh;
+}
+
+.navbar a{
+  color: white;
+  font-weight: 600;
+}
+
+.background1{
+  background-image: url("img/top-BG.png");
+  background-position: 50% 63%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  width:127vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50vh;
+  width: 50vh;
+  background-size: 100%, 100%;
+  background-image: none;
+  padding-top: 4.5vh;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30vh;
+  font-weight: 100;
+  color: white;
+  padding-left: 42vh;
+}
+
+.carousel-control-prev-icon:after {
+     content: '<';
+     font-size: 30vh;
+     font-weight: 100;
+     color: white;
+     padding-right: 65vh;
+     margin-left: -18vh;
+}
+
+/* ----- vertical nav ----- */
+.icon-bar {
+  margin-top: auto;
+  margin-bottom: -15vh;
+  z-index: 1;
+  display: block;
+}
+
+.icon-bar a {
+  padding-top: 2.5rem;
+  margin-left: 2.5rem;
+  text-align: left;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.icon-bar a:hover {
+  background-color: auto;
+  color: #D49A63;
+  text-decoration: none;
+
+}
+
+.effetBar:hover {
+  align-items: flex-end;
+  display: flex;
+  border-bottom: 0.05em solid;
+  padding-bottom: -10vh;
+}
+
+.perf{
+  color: #1C2434;
+  font-style: italic;
+  align-items: center;
+}
+
+.med{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.btn-book {
+  color: #D49A63;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
+  border-color: #1C2434;
+  cursor:pointer;
+  white-space: nowrap;
+  outline:none;
+
+}
+
+/* ----- sections ----- */
+#section1{
+  background-image: url("img/main-BG.png");
+  background-position: 50% 33%;
+  width: 100%;
+  height: auto;
+}
+
+.titre{
+  padding-top: 10vh;
+  font-size: 6.5vh;
+  font-weight: 600;
+}
+
+.lorem{
+  font-style: italic;
+  color: #8c8c8c;
+  padding-bottom: 15vh;
+}
+
+.background-img-height{
+  height: 250px;
+}
+
+#img1{
+background-image: url(img/dessert.png);
+background-position: center;
+}
+
+#img2{
+background-image: url(img/smoothie.png);
+background-position: center;
+}
+
+#img3{
+background-image: url(img/breakfast.png);
+background-position: center;
+}
+
+.dessert-breakfast{
+  color: #D49A63;
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+#smoothies {
+  color: black;
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.lorembis{
+  font-style: italic;
+  color: #cbcbcb;
+  font-size: 1.5vh;
+}
+
+#lor{
+  font-style: italic;
+  color: #8c8c8c;
+  font-size: 1.8vh;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.btn-check {
+  color: #D49A63;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
+  border-color: #cbcbcb;
+  overflow: hidden;
+  outline:none;
+  height: 5vh;
+}
+
+
+#section2{
+  background-image: url("img/photo-BG.png");
+  background-size: cover;
+}
+
+.jumbotron{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contour{
+  border: 1px solid #8c8c8c;
+  margin-top: 2vh;
+margin-left: 2vh;
+margin-right: 2vh;
+height: 33vh;
+}
+
+.details{
+  font-size: 6.5vh;
+  font-weight: 600;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.btn-prep {
+  color: #D49A63;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
+  border-color: #cbcbcb;
+  overflow: hidden;
+  outline:none;
+  height: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+
+#section3{
+  background-image: url("img/main-BG.png");
+  background-position: 50% 33%;
+  width: 100%;
+  height: auto;
+}
+
+.smaller{
+  margin:0;
+  padding:0;
+}
+
+#img4{
+background-image: url(img/4.png);
+background-position: center;
+}
+
+#img5{
+background-image: url(img/532.png);
+background-position: center;
+}
+
+#img6{
+background-image: url(img/16.png);
+background-position: center;
+}
+
+.dfb {
+  font-size: 2.5vh;
+  color: #D49A63;
+  font-weight: 600;
+}
+
+.logodemerde{
+  position : relative;
+  z-index: 2;
+}
+
+#hrdemerde {
+  transform: translateY(-40px);
+  position: relative;
+  z-index: 1;
+}
+
+#gratia{
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+
+@media screen and (max-width: 640px) {
+  .icon-bar, .perf, .arrow, .carousel-control-prev-icon,
+  .carousel-control-next-icon, .carousel-control-prev-icon:after, .carousel-control-next-icon:after {
+    display: none !important;
+  }
+  .test{
+    margin-top: 100vh;
+  }
+  .foot{
+    margin-top: 60vh;
+  }
+  #hrdemerde {
+    transform: translateY(-28px);
+  }
+  .background1{
+    background-image: url(img/BG-media.png);
+  }
+  .med{
+    margin-right: 30%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1048px){
+  .icon-bar, .carousel-control-prev-icon,
+  .carousel-control-next-icon, .carousel-control-prev-icon:after, .carousel-control-next-icon:after {
+    display: none !important;
+  }
+}
